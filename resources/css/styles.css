@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background-color: #c7a58c;
   }
 
 * {
@@ -277,7 +278,7 @@ html {
 /* IMAGE HEADER STYLING */
 .image-header-container {
     margin-top: 80px;
-    background-color: #c7a58c;
+    /* background-color: #c7a58c; */
     /* border: 2px solid red; */
     /* border-bottom: 2px solid rgba(1, 1, 83, 0.349); */
     height: 610px;
@@ -726,7 +727,7 @@ html {
 .services-container {
     position: relative;
     top: 100px;
-    border-top: 2px solid rgba(1, 1, 83, 0.425);
+    /* border-top: 2px solid #E9EDDE; */
     /* background-image: url("./images/services-background.webp"); */
     background-position: center;
     background-size: cover;
@@ -836,8 +837,9 @@ html {
     position: relative;
     top: 100px;
     /* border: 2px solid red; */
-    /* margin-bottom: .2rem; */
+    margin-block: 4rem;
     padding: .5rem;
+    padding-block: 2rem;
     /* background-image: url("./images/hd-wallpaper-g9d4341994_640.jpg"); */
     background-color: #090909;
     /* background-color: #3c3277a6; */
@@ -869,7 +871,7 @@ html {
     width: 240px;
     /* border: 1px solid #221008; */
     padding: 1rem;
-    background-color: rgb(255, 255, 255);
+    background-color: #E9EDDE;;
     border-radius: 2rem;
 }
 .why h1 {
@@ -955,26 +957,27 @@ html {
     position: relative;
     top: 100px;
     /* min-height: 700px;  */
-    background-image: url("../images/sewing-machine-640.webp");
+    /* background-image: url("../images/sewing-machine-640.webp");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    color: white;
+    background-size: cover; */
+    /* background-color: #c7a58c; */
+    color: #090909;
     text-align: center;
-    position: relative;
-    z-index: 1;
+    /* position: relative;
+    z-index: 1; */
 }
-.contact-us-container::before {
+/* .contact-us-container::before {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(7, 0, 41);
-    opacity: .7;
+    background-color: #000000;
+    opacity: .2;
     z-index: -1;
-}
+} */
 .contact-us {
     /* border: 2px solid black; */
     padding-top: 2rem;
@@ -1007,7 +1010,7 @@ html {
 .contact-us-list .contact {
     /* border: 2px solid black; */
     padding: .5rem;
-    background-color: rgba(255, 255, 255, 0.151);
+    background-color: #09090970;
     border-radius: .5rem;
 }
 .contact h1 {
@@ -1060,7 +1063,7 @@ html {
         padding-block: 2rem;
     }
 }
-@media (min-width: 640px) {
+/* @media (min-width: 640px) {
     .contact-us-container {
         background-image: url("../images/sewing-machine-1280.webp");
     }
@@ -1069,13 +1072,15 @@ html {
     .contact-us-container {
         background-image: url("../images/sewing-machine-1920.webp");
     }
-}
+} */
 
 /* TESTIMONIALS SECTION */
 .testimonials-container {
+    position: relative;
+    top: 100px;
     /* border: 2px solid rgb(0, 0, 0); */
     padding-block: .3rem;
-    background-color: rgba(209, 192, 192, 0.582);
+    /* background-color: rgba(209, 192, 192, 0.582); */
 }
 .testimonials-container #testimonial-header {
     /* border: 2px solid rgb(0, 0, 0); */
@@ -1163,6 +1168,8 @@ html {
 
 /* FAQ SECTION */
 .faq-container {
+    position: relative;
+    top: 100px;
     /* border-bottom: 2px solid rgb(2, 2, 2); */
     /* margin-bottom: 1rem; */
     border-top: 2px solid rgb(10, 2, 48);
@@ -1271,6 +1278,9 @@ html {
 
 /* SALE SECTION */
 .sale-container {
+    position: relative;
+    top: 100px;
+
     border-block: 2px solid rgba(10, 2, 48, 0.822);
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -1372,10 +1382,12 @@ html {
 
 /* FOOTER SECTION STYLING */
 footer {
+    position: relative;
+    top: 100px;
     /* text-align: center; */
     /* border: 2px solid rgb(194, 14, 14); */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(6, 4, 133);
+    background-color: #090909;
     height: 350px;
     /* padding-block: 2rem; */
     display: flex;
